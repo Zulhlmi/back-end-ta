@@ -1,8 +1,7 @@
 <?php 
 
 /** 
-* Generated at: 2018-12-27T12:46:09+01:00
-* IP: 127.0.0.1
+* Generated at: 2019-01-06T15:02:39+01:00
 
 
 Fields Summary: 
@@ -26,7 +25,7 @@ return Pimcore\Model\DataObject\Fieldcollection\Definition::__set_state(array(
      'title' => NULL,
      'width' => NULL,
      'height' => NULL,
-     'collapsible' => NULL,
+     'collapsible' => false,
      'collapsed' => NULL,
      'bodyStyle' => NULL,
      'datatype' => 'layout',
@@ -119,7 +118,7 @@ return Pimcore\Model\DataObject\Fieldcollection\Definition::__set_state(array(
          'locked' => false,
       )),
     ),
-     'locked' => NULL,
+     'locked' => false,
   )),
    'dao' => NULL,
 ));
